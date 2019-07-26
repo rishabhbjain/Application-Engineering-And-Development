@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="841" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="lblManufactureCertificate" max="32767" attributes="0"/>
+                                      <Component id="lblManufacture" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                                      <Component id="lblAvailableseats" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="lblUsedby" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="lblUpdateTime" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblModelNumber" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="lblmin" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtManufactureYear" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtminSeats" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblmax" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="txtmaxSeats" min="-2" pref="56" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="btnAvailseats" min="-2" pref="163" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtMadeby" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="txtManufactureCertificate" alignment="0" pref="180" max="32767" attributes="0"/>
+                                          <Component id="txtAirport" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtModelNumber" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtSerialNumber" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtManufactureUsedby" alignment="0" pref="180" max="32767" attributes="0"/>
+                                          <Component id="txtUpdateTime" alignment="1" pref="180" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnManufactureCertificate" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="btnSerialNumber" max="32767" attributes="0"/>
+                                          <Component id="btnModelNumber" alignment="0" pref="163" max="32767" attributes="0"/>
+                                          <Component id="btnAirport" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="btnManufactureUsedby" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="btnUpdateTime" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                      <Component id="To1" min="-2" pref="97" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="btnManufactureYear" max="32767" attributes="0"/>
+                                          <Component id="btnCurrentlyAvailable" max="32767" attributes="0"/>
+                                          <Component id="btnFirstavailable" max="32767" attributes="0"/>
+                                          <Component id="btnMadeby" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblAiport" min="-2" pref="146" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblFirstAvailable" min="-2" pref="206" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="From1" min="-2" pref="55" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" pref="33" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblCurrentlyAvailable" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                          <Component id="lblMadeby" alignment="0" min="-2" pref="146" max="-2" attributes="0"/>
+                          <Component id="lblSerialNumber" min="-2" pref="146" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="425" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblFirstAvailable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFirstavailable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="From1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="To1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCurrentlyAvailable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCurrentlyAvailable" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblMadeby" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMadeby" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMadeby" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtManufactureYear" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblManufacture" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnManufactureYear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAvailableseats" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAvailseats" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtmaxSeats" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblmin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtminSeats" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblmax" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblSerialNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtSerialNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnSerialNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblModelNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtModelNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnModelNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAiport" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtAirport" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnAirport" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblManufactureCertificate" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnManufactureCertificate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtManufactureCertificate" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtManufactureUsedby" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblUsedby" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnManufactureUsedby" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblUpdateTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnUpdateTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtUpdateTime" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="202" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblMadeby">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Made by "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMadeby">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Madeby"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMadebyActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblAirline">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="13" rowCount="0">
+                <Column editable="true" title="Sr No." type="java.lang.Object"/>
+                <Column editable="true" title="Date" type="java.lang.Object"/>
+                <Column editable="true" title="Time" type="java.lang.Object"/>
+                <Column editable="true" title="MadeBy" type="java.lang.Object"/>
+                <Column editable="true" title="Manu Year" type="java.lang.Object"/>
+                <Column editable="true" title="Model No" type="java.lang.Object"/>
+                <Column editable="true" title="Seats" type="java.lang.Object"/>
+                <Column editable="true" title="MainCerti" type="java.lang.Object"/>
+                <Column editable="true" title="From" type="java.lang.Object"/>
+                <Column editable="true" title="To" type="java.lang.Object"/>
+                <Column editable="true" title="Duration" type="java.lang.Object"/>
+                <Column editable="true" title="Availability" type="java.lang.Object"/>
+                <Column editable="true" title="Airline" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblAvailableseats">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Availablity based on min and max  Seats"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAvailseats">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Available Seats"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAvailseatsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMadeby">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFirstAvailable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Available Airplane"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFirstavailable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Available"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFirstavailableActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCurrentlyAvailable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Currently Available Airplane"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCurrentlyAvailable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Currently Available"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCurrentlyAvailableActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblManufacture">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufactured in "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnManufactureYear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Year"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnManufactureYearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtManufactureYear">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtminSeats">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtmaxSeats">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSerialNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serial Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSerialNumber">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSerialNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serial Number"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSerialNumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblModelNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Model Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnModelNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Model Number"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnModelNumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModelNumber">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAiport">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Available at Airport"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAirport">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAirport">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Airport"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAirportActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblManufactureCertificate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maintenance Certificate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtManufactureCertificate">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnManufactureCertificate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Expired"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnManufactureCertificateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MIN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmax">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MAX"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUsedby">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Airplane Manufacturers Usedby"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtManufactureUsedby">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnManufactureUsedby">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufacturer"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnManufactureUsedbyActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUpdateTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Time Flet Calalog was Updated"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnUpdateTime">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateTimeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtUpdateTime">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="From1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="To1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FROM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TO"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
